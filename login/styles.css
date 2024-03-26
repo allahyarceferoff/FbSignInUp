@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper{
+    width: 430px;
+    height: 350px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h3{
+    line-height: 22px;
+    font-family: inherit;
+    text-align: center;
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 15px 5px;
+    
+}
+
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    border: none;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 6px ;
+    padding-left: 12px;
+}
+
+.wrapper .btn{
+    background-color: #0866ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px; 
+    margin: 5px; 
+    width: 350px;
+    
+}
+
+.wrapper .register-link{
+    width: 100%;
+    font-size: 14px;
+    margin-top:20px ;
+    margin-left: 65px;
+    text-decoration: none;
+    
+}
+
+.logo .logo_image{
+    display: grid;
+    margin-left: 100px;
+    width: 240px;
+    text-align: center;
+}
+
+
+
+
